@@ -1,0 +1,37 @@
+# Render Blueprint - Deploy both frontend and backend
+
+services:
+  # Backend API Service
+  - type: web
+    name: payment-backend
+    env: node
+    plan: starter  # Change to 'free' for free tier (sleeps after 15 min)
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    rootDir: backend
+    envVars:
+      - key: MONGO_URI
+        sync: false  # Set manually in Render dashboard
+      - key: RAZORPAY_KEY_ID
+        sync: false
+      - key: RAZORPAY_KEY_SECRET
+        sync: false
+      - key: WEBHOOK_SECRET
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+
+  # Frontend Static Site
+  - type: web
+    name: payment-frontend
+    env: static
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        sync: false  # Set to your backend URL after deployment
+

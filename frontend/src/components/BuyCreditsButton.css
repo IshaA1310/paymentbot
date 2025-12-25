@@ -1,0 +1,148 @@
+/* BuyCreditsButton Styles
+.buy-credits-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.credit-package-selector {
+  margin-bottom: 16px;
+}
+
+.credit-package-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.credit-package-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.credit-package-button {
+  flex: 1;
+  min-width: 100px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px solid #3399cc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  color: #3399cc;
+}
+
+.credit-package-button:hover:not(:disabled) {
+  background-color: #f0f8ff;
+}
+
+.credit-package-button.selected {
+  background-color: #3399cc;
+  color: #ffffff;
+}
+
+.credit-package-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.credit-package-dropdown {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.credit-package-dropdown:focus {
+  border-color: #3399cc;
+}
+
+.credit-package-dropdown:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.credit-package-info {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #666;
+  font-weight: 500;
+}
+
+.buy-credits-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #3399cc;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 150px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buy-credits-button:hover:not(:disabled) {
+  background-color: #2d87b8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.buy-credits-button:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buy-credits-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.payment-message {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  animation: slideDown 0.3s ease;
+}
+
+.payment-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.payment-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.payment-message.info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #bee5eb;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+ */
