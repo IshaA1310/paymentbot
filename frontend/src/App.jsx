@@ -95,7 +95,7 @@ function App() {
               }}
             >
               <span style={{ fontSize: '32px' }}>💳</span>
-              <span>PaymentHub</span>
+              <span>PayCredits</span>
             </Link>
             <div style={{
               display: 'flex',
@@ -142,7 +142,7 @@ function App() {
                   WebkitTextFillColor: 'transparent',
                   backgroundClip: 'text'
                 }}>
-                  PaymentHub
+                  PayCredits
                 </h3>
                 <p style={{ color: '#9ca3af', lineHeight: '1.8', fontSize: '14px' }}>
                   Secure and reliable payment processing powered by Razorpay. 
@@ -187,7 +187,7 @@ function App() {
               textAlign: 'center'
             }}>
               <p style={{ marginBottom: '15px', fontSize: '14px', color: '#9ca3af' }}>
-                © {new Date().getFullYear()} PaymentHub. All rights reserved.
+                © {new Date().getFullYear()} PayCredits. All rights reserved.
               </p>
               <p style={{ fontSize: '12px', color: '#6b7280' }}>
                 Secure payments powered by{' '}

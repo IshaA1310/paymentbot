@@ -33,11 +33,6 @@ const AboutUs = () => {
             We are a trusted platform providing secure payment and credit management services. 
             Our mission is to make digital payments simple, secure, and accessible to everyone.
           </p>
-          <p style={{ fontSize: '16px' }}>
-            We leverage industry-leading payment gateways like Razorpay to ensure your transactions 
-            are processed safely and efficiently. All payments are PCI DSS compliant and encrypted 
-            for maximum security.
-          </p>
         </div>
 
         <div style={{

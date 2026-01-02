@@ -55,16 +55,6 @@ const PrivacyPolicy = () => {
 
           <section style={{ marginBottom: '24px' }}>
             <h2 style={{ fontSize: '20px', fontWeight: '700', color: '#1f2937', marginBottom: '12px' }}>
-              Security
-            </h2>
-            <p style={{ fontSize: '15px' }}>
-              We use Razorpay, a PCI DSS Level 1 compliant payment gateway, ensuring the highest 
-              level of security for all transactions. All data is encrypted and securely transmitted.
-            </p>
-          </section>
-
-          <section style={{ marginBottom: '24px' }}>
-            <h2 style={{ fontSize: '20px', fontWeight: '700', color: '#1f2937', marginBottom: '12px' }}>
               Your Rights
             </h2>
             <p style={{ fontSize: '15px' }}>

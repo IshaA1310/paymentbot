@@ -15,7 +15,8 @@ export const createOrder = async (req, res) => {
       userId: user._id,
       credits
     });
-    // console.log(order);
+    console.log(order, "order");
+    console.log(process.env.RAZORPAY_KEY_ID, "process.env.RAZORPAY_KEY_ID");
     res.json({
       orderId: order.id,
       amount: order.amount,
